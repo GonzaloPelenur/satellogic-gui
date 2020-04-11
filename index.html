@@ -1,0 +1,27 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="uploadImage.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Moving Planes</h1>
+      <p>Sponsored by Satellogic</p>
+    </div>
+    <br>
+    <div class="row">
+    <div class="col-xs-4">
+      <img id="inputImage" width="200" height="200"/>
+      <br>
+      <input id="imPath" type="text" placeholder="Enter full image path"/>
+      <button class="btn btn-info" onclick="call_python()">Upload Image</button>
+    </div>
+    <div class="col-xs-4">
+      <h3>Python Script Logs:</h1>
+      <br>
+      <p id="console">...............</p>
+    </div>
+</div>
+</div>
+<body>
